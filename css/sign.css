@@ -1,0 +1,42 @@
+body{
+  background-color: #000000;
+}
+#warp #header {height: 120px; width: 100%;}
+#warp #header_sign {height: 40px; width: 100%;}
+#warp #header_menu {height: 50px; width: 100%;}
+#warp #header ul a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
+}
+ul li{
+  list-style-type: none;
+  float: right;
+  margin-right: 30px;
+
+}
+#warp #header #header_sign .logo a{
+  margin-left: 30px;
+  margin-top: 0px;
+  float: left;
+}
+#warp #login_main {height: 800px; width: 100%; position: relative;}
+#warp #login_main .login_header {position: absolute; left: 50%; top: 2%; transform: translate(-50%,-50%);}
+#warp #login_main table {position: absolute; left: 50%; top: 30%; transform: translate(-50%,-50%);}
+#warp #login_main td {color: #ffffff; border: 30px solid #000000; font-size: 30px;}
+#warp #login_main input { width: 424px; height: 56px; font-size: 30px; font-style:italic; text-align:center;}
+#warp #login_main .login_main_button {position: absolute; left: 50%; top: 55%; transform: translate(-50%,-50%);}
+
+#warp #join_main {height: 2500px; width: 100%; position: relative;}
+#warp #join_main .join_header {position: absolute; left: 50%; top: 2%; transform: translate(-50%,-50%);}
+#warp #join_main table {position: absolute; left: 50%; top: 30%; transform: translate(-50%,-50%);}
+#warp #join_main td {color: #ffffff; border: 30px solid #000000; font-size: 30px;}
+#warp #join_main input { width: 424px; height: 56px; font-size: 30px; font-style:italic; text-align:center;}
+#warp #join_main .join_main_button {position: absolute; left: 50%; top: 60%; transform: translate(-50%,-50%);}
+
+#warp #mypage_main {height: 2500px; width: 100%; position: relative;}
+#warp #mypage_main .mypage_header {position: absolute; left: 50%; top: 2%; transform: translate(-50%,-50%);}
+#warp #mypage_main table {position: absolute; left: 50%; top: 30%; transform: translate(-50%,-50%);}
+#warp #mypage_main td {color: #ffffff; border: 30px solid #000000; font-size: 30px;}
+#warp #mypage_main input { background-color: #222222; width: 424px; height: 56px; font-size: 30px; font-style:italic; text-align:center;}
+#warp #mypage_main .mypage_main_button {position: absolute; left: 70%; top: 60%; transform: translate(-50%,-50%);}
